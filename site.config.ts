@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '2a9a9ccf954b40338b7bf0c159aa2f60',
+  rootNotionPageId: 'e6e211b366844b54bd81ec0a1008af85',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -10,11 +10,11 @@ export default siteConfig({
 
   // basic site info (required)
   name: '木桩港',
-  domain: 'https://muzhuanggang.notion.site/2a9a9ccf954b40338b7bf0c159aa2f60?pvs=4',
+  domain: 'https://muzhuanggang.notion.site/e6e211b366844b54bd81ec0a1008af85?pvs=25',
   author: '木桩港',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Hi，我是arvin，这是一个基于Notion搭建的网站',
 
   // social usernames (optional)
   twitter: 'transitive_bs',
@@ -55,11 +55,11 @@ export default siteConfig({
   // navigationLinks: [
   //   {
   //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
+  //     pageId: '2a9a9ccf954b40338b7bf0c159aa2f60'
   //   },
   //   {
   //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+  //     pageId: '2a9a9ccf954b40338b7bf0c159aa2f60'
   //   }
   // ]
 })
