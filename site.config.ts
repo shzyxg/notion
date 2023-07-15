@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: '木桩港',
   domain: 'https://muzhuanggang.notion.site/2a9a9ccf954b40338b7bf0c159aa2f60?pvs=4',
-  author: 'Travis Fischer',
+  author: '木桩港',
 
   // open graph metadata (optional)
   description: 'Example Next.js Notion Starter Kit Site',
