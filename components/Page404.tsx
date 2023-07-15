@@ -14,7 +14,7 @@ export const Page404: React.FC<types.PageProps> = ({ site, pageId, error }) => {
 
       <div className={styles.container}>
         <main className={styles.main}>
-          <h1>Notion Page Not Found</h1>
+          <h1>远方的朋友，你似乎迷路了哟，oops! Page Not Found</h1>
 
           {error ? (
             <p>{error.message}</p>
