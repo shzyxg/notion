@@ -55,11 +55,11 @@ export default siteConfig({
   // navigationLinks: [
   //   {
   //     title: 'About',
-  //     pageId: '390894d205aa4623ac754269651127ec'
+  //     pageId: '462a958ffddb4a02835a29a8a0d658ba'
   //   },
   //   {
   //     title: 'Contact',
-  //     pageId: '2a9a9ccf954b40338b7bf0c159aa2f60'
+  //     pageId: 'd922bb529139441babd306db38474c37'
   //   }
   // ]
 })
