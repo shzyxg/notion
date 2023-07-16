@@ -17,8 +17,8 @@ export default siteConfig({
   description: 'Hi，我是arvin，这是一个基于Notion搭建的网站',
 
   // social usernames (optional)
-  zhihu: 'muzhuanggang',
-  instagram: 'muzhuanggang',
+  
+  
   twitter: 'muzhuanggang',
   github: 'muzhuanggang',
   // linkedin: '',
@@ -63,7 +63,7 @@ export default siteConfig({
      {
        title: 'Contact',
        pageId: 'd922bb529139441babd306db38474c37'
-     },
+     } ]
     // {
     //   title: 'About me',
     //   url: 'https://www.linkedin.com/in/muzhuanggang/'
@@ -72,4 +72,4 @@ export default siteConfig({
     //   title: 'Contact',
     //   pageId: '689fe661ab5f3b8d1'
     // },
-  ]
+
