@@ -35,6 +35,8 @@ export const FooterImpl: React.FC = () => {
 
   return (
     <footer className={styles.footer}>
+      <a href="https://hits.seeyoufarm.com">
+        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmovie.jiangshuai.com.cn&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a>
 
      <div className={styles.copyright}>Copyright 2023 {config.author}</div>
 
