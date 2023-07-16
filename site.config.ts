@@ -2,15 +2,15 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '5fc32e552022492c8fc2012c2c499385',
+  rootNotionPageId: '781800d2497f4459b8bc3f325f29de81',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '姜帅的电影',
-  domain: 'https://shzyxg.notion.site/5fc32e552022492c8fc2012c2c499385?v=c8f265aaaebf4c3fb5a8e98d4f63c5f8&pvs=4',
+  name: '姜帅的影视收藏夹',
+  domain: 'https://shzyxg.notion.site/781800d2497f4459b8bc3f325f29de81?pvs=4',
   author: '姜帅',
 
   // open graph metadata (optional)
@@ -57,12 +57,16 @@ export default siteConfig({
  navigationStyle: 'custom',
      navigationLinks: [
        {
-         title: '关于',
-         pageId: '434c4af265874080885b7f6a2b09e286'
+         title: '电影',
+         pageId: '5fc32e552022492c8fc2012c2c499385'
        },
        {
-         title: '联系',
-         pageId: 'c37cb61fcd054182b5dfd51c014b1f3e'
+         title: '电视剧',
+         pageId: 'c04956523a25405db7bb9763dbf2ff3b'
+       },
+       {
+         title: '阅读',
+         pageId: '57a0e4f7a10141148835dbe196327063'
        }
      ]
 })
