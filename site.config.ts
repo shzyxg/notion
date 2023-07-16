@@ -65,9 +65,13 @@ export default siteConfig({
          pageId: 'c04956523a25405db7bb9763dbf2ff3b'
        },
        {
-         title: '阅读',
-         pageId: '57a0e4f7a10141148835dbe196327063'
+         title: 'JS导航',
+        url: 'http://www.jiangshuai.com.cn?ref=notion'
        }
      ]
 })
+  
+    //   url: 'https://www.linkedin.com/in/hanmil-lee-828a57187/
+    // title: '阅读',
+    //pageId: '57a0e4f7a10141148835dbe196327063'
 
