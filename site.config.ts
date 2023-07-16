@@ -18,6 +18,7 @@ export default siteConfig({
 
   // social usernames (optional)
   zhihu: 'muzhuanggang',
+  instagram: 'muzhuanggang',
   twitter: 'muzhuanggang',
   github: 'muzhuanggang',
   // linkedin: '',
@@ -52,16 +53,15 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: '462a958ffddb4a02835a29a8a0d658ba'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: 'd922bb529139441babd306db38474c37'
-  //   }
-  // ]
-})
+ //  navigationStyle: 'default'
+  navigationStyle: 'custom',
+ navigationLinks: [
+   {
+       title: 'About',
+       pageId: '462a958ffddb4a02835a29a8a0d658ba'
+     },
+     {
+       title: 'Contact',
+       pageId: 'd922bb529139441babd306db38474c37'
+     },
+  ]
