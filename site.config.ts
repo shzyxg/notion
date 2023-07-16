@@ -54,23 +54,16 @@ export default siteConfig({
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
  //  navigationStyle: 'default'
-  navigationStyle: 'custom',
- navigationLinks: [
-   {
-       title: 'About',
-       pageId: '462a958ffddb4a02835a29a8a0d658ba'
-     },
-     {
-       title: 'Contact',
-       pageId: 'd922bb529139441babd306db38474c37'
-     } ,
- ]
-    // {
-    //   title: 'About me',
-    //   url: 'https://www.linkedin.com/in/muzhuanggang/'
-    // },
-    // {
-    //   title: 'Contact',
-    //   pageId: '689fe661ab5f3b8d1'
-    // }
+ navigationStyle: 'custom',
+     navigationLinks: [
+       {
+         title: 'About',
+         pageId: '462a958ffddb4a02835a29a8a0d658ba'
+       },
+       {
+         title: 'Contact',
+         pageId: 'd922bb529139441babd306db38474c37'
+       }
+     ]
+})
 
