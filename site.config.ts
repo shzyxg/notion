@@ -57,11 +57,11 @@ export default siteConfig({
  navigationStyle: 'custom',
      navigationLinks: [
        {
-         title: 'About',
+         title: '关于',
          pageId: '462a958ffddb4a02835a29a8a0d658ba'
        },
        {
-         title: 'Contact',
+         title: '联系',
          pageId: 'd922bb529139441babd306db38474c37'
        }
      ]
