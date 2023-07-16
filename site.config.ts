@@ -66,7 +66,7 @@ export default siteConfig({
        },
        {
          title: '导航',
-        url: 'http://nav.jiangshuai.com.cn?ref=notion'
+        url: 'http://nav.jiangshuai.com.cn?ref=mainjs'
        }
      ]
 })
