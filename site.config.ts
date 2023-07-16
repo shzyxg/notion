@@ -2,25 +2,25 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'e6e211b366844b54bd81ec0a1008af85',
+  rootNotionPageId: '5fc32e552022492c8fc2012c2c499385',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '木桩港',
-  domain: 'https://muzhuanggang.notion.site/e6e211b366844b54bd81ec0a1008af85?pvs=25',
-  author: '木桩港',
+  name: '姜帅的电影',
+  domain: 'https://shzyxg.notion.site/5fc32e552022492c8fc2012c2c499385?v=c8f265aaaebf4c3fb5a8e98d4f63c5f8&pvs=4',
+  author: '姜帅',
 
   // open graph metadata (optional)
-  description: 'Hi，我是arvin，这是一个基于Notion搭建的网站',
+  description: 'Hi，我是arvin',
 
   // social usernames (optional)
   
   
-  twitter: 'muzhuanggang',
-  github: 'muzhuanggang',
+  twitter: 'shzyxg',
+  github: 'shzyxg',
   // linkedin: '',
   // instagram: '',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
@@ -58,11 +58,11 @@ export default siteConfig({
      navigationLinks: [
        {
          title: '关于',
-         pageId: '462a958ffddb4a02835a29a8a0d658ba'
+         pageId: '434c4af265874080885b7f6a2b09e286'
        },
        {
          title: '联系',
-         pageId: 'd922bb529139441babd306db38474c37'
+         pageId: 'c37cb61fcd054182b5dfd51c014b1f3e'
        }
      ]
 })
