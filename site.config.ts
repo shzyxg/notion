@@ -22,7 +22,7 @@ export default siteConfig({
   twitter: 'muzhuanggang',
   github: 'muzhuanggang',
   // linkedin: '',
-  // instagram: 'onet2lee',
+  // instagram: '',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -71,6 +71,5 @@ export default siteConfig({
     // {
     //   title: 'Contact',
     //   pageId: '689fe661ab5f3b8d1'
-    // }
+    // },
   ]
-})  
