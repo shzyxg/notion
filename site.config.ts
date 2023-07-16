@@ -61,12 +61,12 @@ export default siteConfig({
          pageId: '5fc32e552022492c8fc2012c2c499385'
        },
        {
-         title: '电视剧',
+         title: '电视',
          pageId: 'c04956523a25405db7bb9763dbf2ff3b'
        },
        {
-         title: 'JS导航',
-        url: 'http://www.jiangshuai.com.cn?ref=notion'
+         title: '导航',
+        url: 'http://nav.jiangshuai.com.cn?ref=notion'
        }
      ]
 })
