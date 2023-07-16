@@ -17,9 +17,11 @@ export default siteConfig({
   description: 'Hi，我是arvin，这是一个基于Notion搭建的网站',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  zhihu: 'muzhuanggang',
+  twitter: 'muzhuanggang',
+  github: 'muzhuanggang',
+  // linkedin: '',
+  // instagram: 'onet2lee',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
