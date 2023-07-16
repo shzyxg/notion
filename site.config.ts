@@ -64,4 +64,13 @@ export default siteConfig({
        title: 'Contact',
        pageId: 'd922bb529139441babd306db38474c37'
      },
+    // {
+    //   title: 'About me',
+    //   url: 'https://www.linkedin.com/in/muzhuanggang/'
+    // },
+    // {
+    //   title: 'Contact',
+    //   pageId: '689fe661ab5f3b8d1'
+    // }
   ]
+})  
