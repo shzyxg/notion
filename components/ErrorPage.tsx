@@ -12,7 +12,8 @@ export const ErrorPage: React.FC<{ statusCode: number }> = ({ statusCode }) => {
 
       <div className={styles.container}>
         <main className={styles.main}>
-          <h1>Error Loading Page</h1>
+          <h1>远方的朋友你好，当前页面还未准备好，<br>需要帮助可以联系我:mail@jiangshuai.com.cn
+<br>Error Loading Page</h1>
 
           {statusCode && <p>Error code: {statusCode}</p>}
 
