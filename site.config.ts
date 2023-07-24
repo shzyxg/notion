@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '姜帅的影视收藏夹',
+  name: '姜帅的小站',
   domain: 'https://shzyxg.notion.site/781800d2497f4459b8bc3f325f29de81?pvs=4',
   author: '姜帅',
 
   // open graph metadata (optional)
-  description: 'Hi，我是arvin',
+  description: 'Hi，远方的朋友，你好！',
 
   // social usernames (optional)
   
