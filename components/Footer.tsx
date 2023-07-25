@@ -38,9 +38,7 @@ export const FooterImpl: React.FC = () => {
       <a href="https://hits.seeyoufarm.com">
         <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmovie.jiangshuai.com.cn&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a>
 
-     <div className={styles.copyright}>Copyright 2023 {config.author}
-     <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('赞助一杯咖啡Buy me a coffee', '#e02856', 'C0C6NG8VV');kofiwidget2.draw();</script>
-     </div>
+     <div className={styles.copyright}>Copyright 2023 {config.author}</div>
      
       <div className={styles.settings}>
         {hasMounted && (
