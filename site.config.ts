@@ -70,7 +70,7 @@ export default siteConfig({
        },
        {
          title: '导航',
-        url: 'http://nav.jiangshuai.com.cn?ref=mainjs'
+        url: 'http://nav.jiangshuai.com.cn?ref=jiangshuai.com.cn'
        }
      ]
 })
