@@ -58,7 +58,7 @@ export default siteConfig({
      navigationLinks: [
        {
          title: '博客',
-         pageId: '3e509616a3f24dc19593e624e3868c76 '
+         pageId: '3e509616a3f24dc19593e624e3868c76'
        },
        {
          title: '电影',
