@@ -54,12 +54,14 @@ export default siteConfig({
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
  //  navigationStyle: 'default'
+  //  {
+  //        title: '博客',
+   //       pageId: '3e509616a3f24dc19593e624e3868c76'
+  //      },
+                          
  navigationStyle: 'custom',
      navigationLinks: [
-       {
-         title: '博客',
-         pageId: '3e509616a3f24dc19593e624e3868c76'
-       },
+      
        {
          title: '电影',
          pageId: '5fc32e552022492c8fc2012c2c499385'
@@ -69,13 +71,14 @@ export default siteConfig({
          pageId: 'c04956523a25405db7bb9763dbf2ff3b '
        },
        {
-         title: '导航',
-        url: 'http://nav.jiangshuai.com.cn?ref=jiangshuai.com.cn'
+         title: '资源分享',
+        url: 'https://ludeng.net?ref=js.com.cn'
        }
      ]
 })
   
     //   url: 'https://www.linkedin.com/in/hanmil-lee-828a57187/
+    //   url: 'http://nav.jiangshuai.com.cn?ref=js.com.cn'
     // title: '阅读',
     //pageId: '57a0e4f7a10141148835dbe196327063'
 
