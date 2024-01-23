@@ -72,7 +72,7 @@ export default siteConfig({
          pageId: 'c04956523a25405db7bb9763dbf2ff3b '
        },
        {
-         title: '资源分享',
+         title: '资源下载',
         url: 'https://ludeng.net?ref=js.com.cn'
        }
      ]
