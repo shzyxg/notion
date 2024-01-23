@@ -8,6 +8,7 @@ export default siteConfig({
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
+  
   // basic site info (required)
   name: '姜帅的小站',
   domain: 'https://shzyxg.notion.site/781800d2497f4459b8bc3f325f29de81?pvs=4',
