@@ -15,7 +15,7 @@ export default siteConfig({
   author: '姜帅',
 
   // open graph metadata (optional)
-  description: 'Hi，远方的朋友，你来了，进来坐坐',
+  description: 'Hi，远方的朋友，你来了，进来坐坐吧',
 
   // social usernames (optional)
   
