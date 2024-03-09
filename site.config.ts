@@ -15,7 +15,7 @@ export default siteConfig({
   author: '姜帅',
 
   // open graph metadata (optional)
-  description: 'Hi，远方的朋友，你好 欢迎来访',
+  description: 'Hi，远方的朋友，你来了，进来坐坐',
 
   // social usernames (optional)
   
@@ -68,13 +68,15 @@ export default siteConfig({
          pageId: '5fc32e552022492c8fc2012c2c499385'
        },
        {
-         title: '电视',
-         pageId: 'c04956523a25405db7bb9763dbf2ff3b '
+         title: '新闻',
+         pageId: ' 3e509616a3f24dc19593e624e3868c76'
        },
        {
-         title: '资源下载',
-        url: 'https://ludeng.net?ref=js.com.cn'
+         title: '博客',
+        //url: 'https://ludeng.net?ref=js.com.cn'
+         pageId: '161cac96aa0d49b7a4691854cf9bcaec'
        }
+       
      ]
 })
   
