@@ -74,7 +74,7 @@ export default siteConfig({
        {
          title: '博客',
         //url: 'https://ludeng.net?ref=js.com.cn'
-         pageId: '161cac96aa0d49b7a4691854cf9bcaec'
+         pageId: 'blog-161cac96aa0d49b7a4691854cf9bcaec'
        }
        
      ]
