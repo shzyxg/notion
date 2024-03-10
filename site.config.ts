@@ -15,7 +15,7 @@ export default siteConfig({
   author: '姜帅',
 
   // open graph metadata (optional)
-  description: 'Hi，远方的朋友，你好',
+  description: 'Hi 远方的朋友 你好',
 
   // social usernames (optional)
   twitter: 'shzyxg',
@@ -71,7 +71,7 @@ export default siteConfig({
        },
        {
          title: '博客',
-         pageId: 'blog-161cac96aa0d49b7a4691854cf9bcaec'
+         pageId: '161cac96aa0d49b7a4691854cf9bcaec'
        }
        
      ]
