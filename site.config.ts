@@ -11,15 +11,13 @@ export default siteConfig({
   
   // basic site info (required)
   name: '姜帅的小站',
-  domain: 'https://shzyxg.notion.site/781800d2497f4459b8bc3f325f29de81?pvs=4',
+  domain: 'https://www.jiangshuai.com.cn',
   author: '姜帅',
 
   // open graph metadata (optional)
-  description: 'Hi，远方的朋友，你来了，进来坐坐吧',
+  description: 'Hi，远方的朋友，你好',
 
   // social usernames (optional)
-  
-  
   twitter: 'shzyxg',
   github: 'shzyxg',
   // linkedin: '',
@@ -73,15 +71,15 @@ export default siteConfig({
        },
        {
          title: '博客',
-        //url: 'https://ludeng.net?ref=js.com.cn'
          pageId: 'blog-161cac96aa0d49b7a4691854cf9bcaec'
        }
        
      ]
 })
   
-    //   url: 'https://www.linkedin.com/in/hanmil-lee-828a57187/
+    //   url: 'https://www.linkedin.com/in/hanmil-lee-828a57187/‘
     //   url: 'http://nav.jiangshuai.com.cn?ref=js.com.cn'
     // title: '阅读',
     //pageId: '57a0e4f7a10141148835dbe196327063'
+    //url: 'https://ludeng.net?ref=js.com.cn'
 
