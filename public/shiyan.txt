@@ -1,0 +1,444 @@
+注意：128的offer key复制于测试环境，未验证是否有效。
+
+第一部分：购买项配置（Banner配置见下方）
+
+{
+      "child_keys": [
+        {
+          "key": "card_mark",
+          "note": "卡片角标",
+          "value_list": [
+            {
+              "note": "兜底",
+              "value": "送新人礼包"
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "key": "card_name",
+          "note": "卡片标题",
+          "value_list": [
+            {
+              "note": "兜底",
+              "value": "首期优惠"
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "key": "price",
+          "note": "价格，纯数字，在卡片信息内前面会自动拼接¥符号，如果在按钮文案上，会和前后字符串拼接",
+          "value_list": [
+            {
+              "conditions": [
+                {
+                  "abtest_list": {
+                    "groupid": [
+                      "0",
+                      "1"
+                    ],
+                    "name": "ios_web_yunying_01"
+                  }
+                }
+              ],
+              "note": "对照组",
+              "value": "178"
+            },
+            {
+              "conditions": [
+                {
+                  "abtest_list": {
+                    "groupid": [
+                      "2"
+                    ],
+                    "name": "ios_web_yunying_01"
+                  }
+                }
+              ],
+              "note": "实验组一(首年￥128，次年￥258)",
+              "value": "128"
+            },
+            
+            {
+              "note": "兜底",
+              "value": "178"
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "key": "grey_mark",
+          "note": "置灰角标",
+          "value_list": [
+            {
+              "conditions": [
+                {
+                  "abtest_list": {
+                    "groupid": [
+                      "0",
+                      "1"
+                    ],
+                    "name": "ios_web_yunying_01"
+                  }
+                }
+              ],
+              "note": "对照组",
+              "value": "折合 ¥14.8/月"
+            },
+            {
+              "conditions": [
+                {
+                  "abtest_list": {
+                    "groupid": [
+                      "2"
+                    ],
+                    "name": "ios_web_yunying_01"
+                  }
+                }
+              ],
+              "note": "实验组一(首年￥128，次年￥258)",
+              "value": "折合 ¥10.7/月"
+            },
+            
+            {
+              "note": "兜底",
+              "value": "折合 ¥14.8/月"
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "key": "down_mark",
+          "note": "底部角标",
+          "value_list": [
+            {
+              "note": "兜底",
+              "value": "之后 ¥258/年"
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "key": "price_description",
+          "note": "价格描述",
+          "value_list": [
+            {
+              "conditions": [
+                {
+                  "abtest_list": {
+                    "groupid": [
+                      "0",
+                      "1"
+                    ],
+                    "name": "ios_web_yunying_01"
+                  }
+                }
+              ],
+              "note": "对照组",
+              "value": "到期自动续费，可随时取消。"
+            },
+            {
+              "conditions": [
+                {
+                  "abtest_list": {
+                    "groupid": [
+                      "2"
+                    ],
+                    "name": "ios_web_yunying_01"
+                  }
+                }
+              ],
+              "note": "实验组一(首年￥128，次年￥258)",
+              "value": "到期自动续费，可随时取消。"
+            },
+            
+            {
+              "note": "兜底",
+              "value": "到期自动续费，可随时取消。"
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "key": "is_gift_show",
+          "note": "是否展示礼包和底部气泡",
+          "value_list": [
+            {
+              "note": "兜底",
+              "value": "1"
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "key": "gift_name",
+          "note": "礼包优惠标题，为空不展示这一条",
+          "value_list": [
+            {
+              "note": "兜底",
+              "value": "新人大礼包"
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "key": "gift_price",
+          "note": "礼包优惠金额（礼包卡片金额）",
+          "value_list": [
+            {
+              "note": "兜底",
+              "value": "708"
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "key": "vip_discount_name",
+          "note": "vip优惠标题",
+          "value_list": [
+            {
+              "conditions": [
+                {
+                  "abtest_list": {
+                    "groupid": [
+                      "0",
+                      "1"
+                    ],
+                    "name": "ios_web_yunying_01"
+                  }
+                }
+              ],
+              "note": "对照组",
+              "value": "包年优惠券"
+            },
+            {
+              "conditions": [
+                {
+                  "abtest_list": {
+                    "groupid": [
+                      "2"  
+                    ],
+                    "name": "ios_web_yunying_01"
+                  }
+                }
+              ],
+              "note": "实验组一(首年￥128，次年￥258)",
+              "value": "包年优惠券"
+            },
+            {
+              "note": "兜底",
+              "value": "包年优惠券"
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "key": "vip_discount_price",
+          "note": "vip优惠金额",
+          "value_list": [
+            {
+              "conditions": [
+                {
+                  "abtest_list": {
+                    "groupid": [
+                      "0",
+                      "1"
+                    ],
+                    "name": "ios_web_yunying_01"
+                  }
+                }
+              ],
+              "note": "对照组",
+              "value": "80"
+            },
+            {
+              "conditions": [
+                {
+                  "abtest_list": {
+                    "groupid": [
+                      "2"
+                    ],
+                    "name": "ios_web_yunying_01"
+                  }
+                }
+              ],
+              "note": "实验组一(首年￥128，次年￥258)",
+              "value": "130"
+            },
+            
+            {
+              "note": "兜底",
+              "value": "80"
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "key": "button_description",
+          "note": "按钮文案",
+          "value_list": [
+            {
+              "note": "所有实验组都是这个样式",
+              "value": "<div style=\"font-size: 17px; font-weight: 600; color: #fff; \">立享优惠</div> "
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "key": "product_id",
+          "note": " 购买项",
+          "value_list": [
+            {
+              "conditions": [
+                {
+                  "abtest_list": {
+                    "groupid": [
+                      "0",
+                      "1"
+                    ],
+                    "name": "ios_web_yunying_01"
+                  }
+                }
+              ],
+              "note": "对照组",
+              "value": "com.intsig.camscanner.premiums.oneyear.autorenewable.oncemore.privilege"
+            },
+            {
+              "conditions": [
+                {
+                  "abtest_list": {
+                    "groupid": [
+                      "2"
+                    ],
+                    "name": "ios_web_yunying_01"
+                  }
+                }
+              ],
+              "note": "实验组一（首年￥128，次年￥258）",
+              "value": "com.intsig.camscanner.premiums.oneyear.autorenewable.svip.1get2"
+            },
+            
+            {
+              "note": "兜底（首年￥178，次年￥258）",
+              "value": "com.intsig.camscanner.premiums.oneyear.autorenewable.oncemore.privilege"
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "key": "offer_key",
+          "note": "优惠代码，不配置表示不使用",
+          "value_list": [
+            {
+              "conditions": [
+                {
+                  "abtest_list": {
+                    "groupid": [
+                      "0",
+                      "1"
+                    ],
+                    "name": "ios_web_yunying_01"
+                  },
+                  "first_offer": 0
+                }
+              ],
+              "note": "对照组",
+              "value": "oncemore178"
+            },
+            {
+              "conditions": [
+                {
+                  "abtest_list": {
+                    "groupid": [
+                      "2"
+                    ],
+                    "name": "ios_web_yunying_01"
+                  },
+                  "first_offer": 0
+                }
+              ],
+              "note": "实验组一offer key(前提该offer key有效)",
+              "value": "128oneyear"
+            },
+            
+            {
+              "conditions": [
+                {
+                  "first_offer": 0
+                }
+              ],
+              "note": "兜底",
+              "value": "oncemore178"
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "key": "card_info_2",
+      "note": "第二个购买项卡片"
+    },
+
+
+第二部分：Banner配置
+
+{
+  "child_keys": [
+    {
+      "child_keys": [
+        {
+          "key": "is_show_gift_banner",
+          "note": "礼包的顶部banner是否展示",
+          "value_list": [
+            {
+              "note": "兜底",
+              "value": "1"
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "key": "banner_url",
+          "note": "礼包的顶部banner-url",
+          "value_list": [
+            {
+              "conditions": [
+                {
+                  "abtest_list": {
+                    "groupid": [
+                      "0",
+                      "1"
+                    ],
+                    "name": "ios_web_yunying_01"
+                  }
+                }
+              ],
+              "note": "对照组(首年仅需178Banner)",
+              "value": "https://ss-static.intsig.net/10000_9c5b231af925853886972f3e271c90a7.png"
+            },
+            {
+              "conditions": [
+                {
+                  "abtest_list": {
+                    "groupid": [
+                      "2"
+                    ],
+                    "name": "ios_web_yunying_01"
+                  }
+                }
+              ],
+              "note": "实验组一",
+              "value": "https://ditie.net/yunying/128.png"
+            },
+            
+            {
+              "note": "兜底",
+              "value": "https://ss-static.intsig.net/10000_9c5b231af925853886972f3e271c90a7.png"
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "key": "top_gift_banner",
+      "note": "顶部banner是否展示"
+    },
